@@ -27,9 +27,15 @@ export const metadata: Metadata = {
     'Seleção exclusiva de eletrônicos, perfumes e tecnologia de ponta com garantia de procedência e qualidade absoluta.',
   generator: 'v0.app',
   icons: {
-    icon: '/icon.png',
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: '/icon.png', type: 'image/png', sizes: '128x128' },
+    ],
     shortcut: '/favicon.ico',
-    apple: '/apple-icon.png',
+    apple: [
+      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
   },
 }
 

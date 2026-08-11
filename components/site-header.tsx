@@ -2,8 +2,8 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import { ShoppingBag, User, Menu, X } from 'lucide-react'
+import { NexusLogo } from '@/components/nexus-logo'
 
 const navItems = [
   { label: 'Vitrine', href: '/', active: true },
@@ -23,7 +23,7 @@ export function SiteHeader() {
         href="/"
         className="flex items-center gap-2 font-display text-xl font-bold tracking-tighter text-primary md:text-2xl"
       >
-        <Image src="/icon.png" alt="Nexus Imports Logo" width={32} height={32} className="h-8 w-8 rounded object-cover" />
+        <NexusLogo className="h-8 w-8" size={32} />
         <span>NEXUS IMPORTS</span>
       </Link>
 
