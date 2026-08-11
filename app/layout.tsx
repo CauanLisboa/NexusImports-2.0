@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next'
 import { Oswald, Inter, JetBrains_Mono } from 'next/font/google'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import './globals.css'
 
 const oswald = Oswald({
@@ -49,6 +50,7 @@ export default function RootLayout({
     >
       <body className="bg-background font-sans antialiased">
         {children}
+        <SpeedInsights />
       </body>
     </html>
   )
