@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { ShoppingBag, User, Menu, X } from 'lucide-react'
 
 const navItems = [
@@ -22,7 +23,7 @@ export function SiteHeader() {
         href="/"
         className="flex items-center gap-2 font-display text-xl font-bold tracking-tighter text-primary md:text-2xl"
       >
-        <img src="/icon.png" alt="Nexus Imports Logo" className="h-8 w-8 rounded object-cover" />
+        <Image src="/icon.png" alt="Nexus Imports Logo" width={32} height={32} className="h-8 w-8 rounded object-cover" />
         <span>NEXUS IMPORTS</span>
       </Link>
 

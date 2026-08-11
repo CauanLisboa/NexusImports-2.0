@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { MessageSquare } from 'lucide-react'
 import {
   whatsappLink,
@@ -18,7 +19,7 @@ export function SiteFooter() {
             href="/"
             className="mb-6 flex items-center gap-2 font-display text-lg font-bold text-primary"
           >
-            <img src="/icon.png" alt="Nexus Imports Logo" className="h-6 w-6 rounded object-cover" />
+            <Image src="/icon.png" alt="Nexus Imports Logo" width={24} height={24} className="h-6 w-6 rounded object-cover" />
             <span>NEXUS IMPORTS</span>
           </Link>
           <p className="mb-6 max-w-sm text-on-surface-variant">
