@@ -21,7 +21,7 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'PREMIUM IMPORTS | Importados Premium do Paraguai',
+  title: 'NEXUS IMPORTS | Importados do Paraguai',
   description:
     'Seleção exclusiva de eletrônicos, perfumes e tecnologia de ponta com garantia de procedência e qualidade absoluta.',
   generator: 'v0.app',

@@ -20,9 +20,10 @@ export function SiteHeader() {
     <header className="fixed top-0 left-0 z-50 flex h-20 w-full items-center justify-between border-b border-outline-variant/30 bg-background/80 px-4 backdrop-blur-md md:px-16">
       <Link
         href="/"
-        className="font-display text-xl font-bold tracking-tighter text-primary md:text-2xl"
+        className="flex items-center gap-2 font-display text-xl font-bold tracking-tighter text-primary md:text-2xl"
       >
-        PREMIUM IMPORTS
+        <img src="/icon.png" alt="Nexus Imports Logo" className="h-8 w-8 rounded object-cover" />
+        <span>NEXUS IMPORTS</span>
       </Link>
 
       <nav className="hidden gap-8 md:flex">

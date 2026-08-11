@@ -16,12 +16,13 @@ export function SiteFooter() {
         <div className="col-span-1 md:col-span-2">
           <Link
             href="/"
-            className="mb-6 block font-display text-lg font-bold text-primary"
+            className="mb-6 flex items-center gap-2 font-display text-lg font-bold text-primary"
           >
-            PREMIUM IMPORTS
+            <img src="/icon.png" alt="Nexus Imports Logo" className="h-6 w-6 rounded object-cover" />
+            <span>NEXUS IMPORTS</span>
           </Link>
           <p className="mb-6 max-w-sm text-on-surface-variant">
-            © 2024 PREMIUM IMPORTS. EXCLUSIVIDADE EM CADA DETALHE.
+            © 2024 NEXUS IMPORTS. EXCLUSIVIDADE EM CADA DETALHE.
             <br />
             <br />
             {CONTACT_EMAIL}
