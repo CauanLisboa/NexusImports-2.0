@@ -1,4 +1,4 @@
-import { BadgeCheck, Gem, MessagesSquare } from 'lucide-react'
+import { BadgeCheck, Gem, MessagesSquare, Truck, Tags } from 'lucide-react'
 
 const badges = [
   {
@@ -16,12 +16,22 @@ const badges = [
     title: 'Atendimento Direto',
     text: 'Tire dúvidas e faça pedidos via WhatsApp',
   },
+  {
+    icon: Truck,
+    title: 'Envio para Todo o Brasil',
+    text: 'Entrega rápida e segura em todo o país',
+  },
+  {
+    icon: Tags,
+    title: 'Valores em Atacado',
+    text: 'Quanto mais produtos compra, menor o preço',
+  },
 ]
 
 export function TrustBadges() {
   return (
     <section className="border-y border-outline-variant/30 bg-surface-lowest py-12">
-      <div className="mx-auto grid max-w-[1280px] grid-cols-1 gap-8 px-4 text-center md:grid-cols-3 md:px-16">
+      <div className="mx-auto grid max-w-[1280px] grid-cols-1 gap-8 px-4 text-center sm:grid-cols-2 lg:grid-cols-5 md:px-8">
         {badges.map((badge, i) => {
           const Icon = badge.icon
           return (
@@ -34,10 +44,10 @@ export function TrustBadges() {
                 <Icon className="h-7 w-7 text-primary" />
               </div>
               <div>
-                <h3 className="font-display text-xl font-medium text-primary">
+                <h3 className="font-display text-lg font-medium text-primary leading-tight">
                   {badge.title}
                 </h3>
-                <p className="mt-2 text-on-surface-variant">{badge.text}</p>
+                <p className="mt-2 text-sm text-on-surface-variant">{badge.text}</p>
               </div>
             </div>
           )

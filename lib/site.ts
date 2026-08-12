@@ -10,6 +10,7 @@ export type Product = {
   slug: string
   brand: string
   name: string
+  price?: string
   image: string
   alt: string
 }
@@ -25,6 +26,51 @@ export type Perfume = {
 }
 
 export const perfumes: Perfume[] = [
+  {
+    slug: 'lattafa-asad',
+    brand: 'Lattafa',
+    name: 'Lattafa Asad',
+    volume: '100ml',
+    price: 'R$ 230,00',
+    image: '/perfumes/lattafa-asad.png',
+    alt: 'Perfume Lattafa Asad masculino em fundo preto',
+  },
+  {
+    slug: 'afnan-9pm',
+    brand: 'Afnan',
+    name: 'Afnan 9PM',
+    volume: '100ml',
+    price: 'R$ 250,00',
+    image: '/perfumes/afnan-9pm.png',
+    alt: 'Perfume Afnan 9PM masculino em fundo preto',
+  },
+  {
+    slug: 'lattafa-atheeri',
+    brand: 'Lattafa',
+    name: 'Lattafa Atheeri',
+    volume: '100ml',
+    price: 'R$ 330,00',
+    image: '/perfumes/lattafa-atheeri.png',
+    alt: 'Perfume Lattafa Atheeri em fundo preto',
+  },
+  {
+    slug: 'armaf-club-de-nuit',
+    brand: 'Armaf',
+    name: 'Club de Nuit Intense',
+    volume: '105ml',
+    price: 'R$ 290,00',
+    image: '/perfumes/armaf-club-de-nuit.png',
+    alt: 'Perfume Armaf Club de Nuit Intense Man em fundo preto',
+  },
+  {
+    slug: 'al-wataniah-sabah',
+    brand: 'Al Wataniah',
+    name: 'Al Wataniah Sabah',
+    volume: '100ml',
+    price: 'R$ 200,00',
+    image: '/perfumes/al-wataniah-sabah.png',
+    alt: 'Perfume Al Wataniah Sabah em fundo preto',
+  },
   {
     slug: '212-vip-men',
     brand: 'Carolina Herrera',
@@ -251,7 +297,7 @@ export const featuredProduct = {
   brand: 'LATTAFA',
   name: 'Lattafa Asad EDP 100ml',
   badge: 'Top Seller',
-  price: 'R$ 276',
+  price: 'R$ 230,00',
   image: '/products/lattafa-asad.png',
   alt: 'Perfume de luxo Lattafa Asad em fundo preto com iluminação vermelha',
   description:
@@ -263,6 +309,7 @@ export const products: Product[] = [
     slug: 'redmi-watch-5-active',
     brand: 'XIAOMI',
     name: 'Redmi Watch 5 Active',
+    price: 'R$ 350,00',
     image: '/products/smartwatch.png',
     alt: 'Smartwatch Xiaomi Redmi Watch 5 Active em fundo escuro',
   },

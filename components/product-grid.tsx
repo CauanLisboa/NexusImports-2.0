@@ -51,12 +51,12 @@ export function ProductGrid() {
                 {product.name}
               </h3>
               <div className="mt-auto flex items-center justify-between pt-6">
-                <span className="font-mono text-sm text-signal-red">
-                  Consultar
+                <span className="font-mono text-base font-semibold text-gold">
+                  {product.price || 'Consultar'}
                 </span>
                 <a
                   href={whatsappLink(
-                    `Olá! Gostaria de consultar sobre o ${product.name}.`,
+                    `Olá! Gostaria de consultar sobre o ${product.name}${product.price ? ` (${product.price})` : ''}.`,
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
