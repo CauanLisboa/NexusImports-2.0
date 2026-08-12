@@ -45,15 +45,6 @@ export const perfumes: Perfume[] = [
     alt: 'Perfume Afnan 9PM masculino em fundo preto',
   },
   {
-    slug: 'lattafa-atheeri',
-    brand: 'Lattafa',
-    name: 'Lattafa Atheeri',
-    volume: '100ml',
-    price: 'R$ 330,00',
-    image: '/perfumes/lattafa-atheeri.png',
-    alt: 'Perfume Lattafa Atheeri em fundo preto',
-  },
-  {
     slug: 'armaf-club-de-nuit',
     brand: 'Armaf',
     name: 'Club de Nuit Intense',
@@ -61,15 +52,6 @@ export const perfumes: Perfume[] = [
     price: 'R$ 290,00',
     image: '/perfumes/armaf-club-de-nuit.png',
     alt: 'Perfume Armaf Club de Nuit Intense Man em fundo preto',
-  },
-  {
-    slug: 'al-wataniah-sabah',
-    brand: 'Al Wataniah',
-    name: 'Al Wataniah Sabah',
-    volume: '100ml',
-    price: 'R$ 200,00',
-    image: '/perfumes/al-wataniah-sabah.png',
-    alt: 'Perfume Al Wataniah Sabah em fundo preto',
   },
   {
     slug: '212-vip-men',
@@ -182,6 +164,33 @@ export const perfumes: Perfume[] = [
 ]
 
 export const perfumesFemininos: Perfume[] = [
+  {
+    slug: 'lattafa-fakhar-rose',
+    brand: 'Lattafa',
+    name: 'Lattafa Fakhar Rose',
+    volume: '100ml',
+    price: 'R$ 230,00',
+    image: '/perfumes/lattafa-fakhar.png',
+    alt: 'Perfume feminino Lattafa Fakhar Rose em fundo preto',
+  },
+  {
+    slug: 'lattafa-atheeri',
+    brand: 'Lattafa',
+    name: 'Lattafa Atheeri',
+    volume: '100ml',
+    price: 'R$ 330,00',
+    image: '/perfumes/lattafa-atheeri.png',
+    alt: 'Perfume feminino Lattafa Atheeri em fundo preto',
+  },
+  {
+    slug: 'al-wataniah-sabah',
+    brand: 'Al Wataniah',
+    name: 'Al Wataniah Sabah',
+    volume: '100ml',
+    price: 'R$ 200,00',
+    image: '/perfumes/al-wataniah-sabah.png',
+    alt: 'Perfume feminino Al Wataniah Sabah em fundo preto',
+  },
   {
     slug: 'scandal-fem',
     brand: 'Jean Paul Gaultier',

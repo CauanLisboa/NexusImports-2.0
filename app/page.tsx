@@ -2,8 +2,7 @@ import { SiteHeader } from '@/components/site-header'
 import { HeroSection } from '@/components/hero-section'
 import { TrustBadges } from '@/components/trust-badges'
 import { FeaturedProduct } from '@/components/featured-product'
-import { ProductGrid } from '@/components/product-grid'
-import { PerfumeCatalog } from '@/components/perfume-catalog'
+import { UnifiedCatalog } from '@/components/unified-catalog'
 import { SiteFooter } from '@/components/site-footer'
 
 export default function HomePage() {
@@ -14,8 +13,7 @@ export default function HomePage() {
         <HeroSection />
         <TrustBadges />
         <FeaturedProduct />
-        <ProductGrid />
-        <PerfumeCatalog />
+        <UnifiedCatalog />
       </main>
       <SiteFooter />
     </div>

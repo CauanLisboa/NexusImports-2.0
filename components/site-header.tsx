@@ -6,12 +6,10 @@ import { ShoppingBag, User, Menu, X } from 'lucide-react'
 import { NexusLogo } from '@/components/nexus-logo'
 
 const navItems = [
-  { label: 'Vitrine', href: '/', active: true },
-  { label: 'Produtos', href: '#lancamentos', active: false },
-  { label: 'Masculino', href: '#masculino', active: false },
-  { label: 'Feminino', href: '#feminino', active: false },
-  { label: 'Sobre', href: '#sobre', active: false },
-  { label: 'Contato', href: '#contato', active: false },
+  { label: 'Vitrine', href: '#vitrine' },
+  { label: 'Produtos', href: '#produtos' },
+  { label: 'Sobre', href: '#sobre' },
+  { label: 'Contato', href: '#contato' },
 ]
 
 export function SiteHeader() {
@@ -29,17 +27,13 @@ export function SiteHeader() {
 
       <nav className="hidden gap-8 md:flex">
         {navItems.map((item) => (
-          <Link
+          <a
             key={item.label}
             href={item.href}
-            className={
-              item.active
-                ? 'border-b-2 border-signal-red pb-1 font-mono text-sm tracking-wide text-primary'
-                : 'font-mono text-sm tracking-wide text-on-surface-variant transition-colors duration-300 hover:text-primary'
-            }
+            className="font-mono text-sm tracking-wide text-on-surface-variant transition-colors duration-300 hover:text-primary"
           >
             {item.label}
-          </Link>
+          </a>
         ))}
       </nav>
 
