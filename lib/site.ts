@@ -32,7 +32,7 @@ export const perfumes: Perfume[] = [
     name: 'Lattafa Asad',
     volume: '100ml',
     price: 'R$ 230,00',
-    image: '/perfumes/lattafa-asad.png',
+    image: '/products/lattafa-asad.png',
     alt: 'Perfume Lattafa Asad masculino em fundo preto',
   },
   {
@@ -41,7 +41,7 @@ export const perfumes: Perfume[] = [
     name: 'Afnan 9PM',
     volume: '100ml',
     price: 'R$ 250,00',
-    image: '/perfumes/afnan-9pm.png',
+    image: '/products/afnan-9pm.png',
     alt: 'Perfume Afnan 9PM masculino em fundo preto',
   },
   {
@@ -50,7 +50,7 @@ export const perfumes: Perfume[] = [
     name: 'Club de Nuit Intense',
     volume: '105ml',
     price: 'R$ 290,00',
-    image: '/perfumes/armaf-club-de-nuit.png',
+    image: '/products/armaf-club-de-nuit.png',
     alt: 'Perfume Armaf Club de Nuit Intense Man em fundo preto',
   },
   {
@@ -59,7 +59,7 @@ export const perfumes: Perfume[] = [
     name: '212 VIP Men',
     volume: '100ml',
     price: 'R$ 420,00',
-    image: '/perfumes/212-vip-men.png',
+    image: '/products/212-vip-men.png',
     alt: 'Perfume 212 VIP Men da Carolina Herrera em fundo preto',
   },
   {
@@ -68,7 +68,7 @@ export const perfumes: Perfume[] = [
     name: 'Phantom',
     volume: '100ml',
     price: 'R$ 520,00',
-    image: '/perfumes/phantom.png',
+    image: '/products/phantom.png',
     alt: 'Perfume Phantom da Paco Rabanne em fundo preto',
   },
   {
@@ -77,7 +77,7 @@ export const perfumes: Perfume[] = [
     name: 'Sauvage',
     volume: '100ml',
     price: 'R$ 580,00',
-    image: '/perfumes/sauvage.png',
+    image: '/products/sauvage.png',
     alt: 'Perfume Sauvage da Dior em fundo preto',
   },
   {
@@ -86,7 +86,7 @@ export const perfumes: Perfume[] = [
     name: '212 VIP Black',
     volume: '100ml',
     price: 'R$ 480,00',
-    image: '/perfumes/212-vip-black.png',
+    image: '/products/212-vip-black.png',
     alt: 'Perfume 212 VIP Black da Carolina Herrera em fundo preto',
   },
   {
@@ -95,7 +95,7 @@ export const perfumes: Perfume[] = [
     name: 'Phantom',
     volume: '100ml',
     price: 'R$ 460,00',
-    image: '/perfumes/phantom-white.png',
+    image: '/products/phantom-white.png',
     alt: 'Perfume Phantom edição branca da Paco Rabanne em fundo preto',
   },
   {
@@ -104,7 +104,7 @@ export const perfumes: Perfume[] = [
     name: 'Scandal',
     volume: '100ml',
     price: 'R$ 480,00',
-    image: '/perfumes/scandal.png',
+    image: '/products/scandal.png',
     alt: 'Perfume Scandal da Jean Paul Gaultier em fundo preto',
   },
   {
@@ -113,7 +113,7 @@ export const perfumes: Perfume[] = [
     name: '212 Men NYC',
     volume: '100ml',
     price: 'R$ 450,00',
-    image: '/perfumes/212-men-nyc.png',
+    image: '/products/212-men-nyc.png',
     alt: 'Perfume 212 Men NYC da Carolina Herrera em fundo preto',
   },
   {
@@ -122,7 +122,7 @@ export const perfumes: Perfume[] = [
     name: '1 Million',
     volume: '100ml',
     price: 'R$ 380,00',
-    image: '/perfumes/1-million.png',
+    image: '/products/1-million.png',
     alt: 'Perfume 1 Million da Paco Rabanne em fundo preto',
   },
   {
@@ -131,7 +131,7 @@ export const perfumes: Perfume[] = [
     name: 'Invictus',
     volume: '100ml',
     price: 'R$ 380,00',
-    image: '/perfumes/invictus.png',
+    image: '/products/invictus.png',
     alt: 'Perfume Invictus da Rabanne em fundo preto',
   },
   {
@@ -140,7 +140,7 @@ export const perfumes: Perfume[] = [
     name: '212 Men Heroes Forever Young',
     volume: '90ml',
     price: 'R$ 450,00',
-    image: '/perfumes/212-heroes.png',
+    image: '/products/212-heroes.png',
     alt: 'Perfume 212 Men Heroes Forever Young da Carolina Herrera em fundo preto',
   },
   {
@@ -149,7 +149,7 @@ export const perfumes: Perfume[] = [
     name: 'Pure XS',
     volume: '100ml',
     price: 'R$ 380,00',
-    image: '/perfumes/pure-xs.png',
+    image: '/products/pure-xs.png',
     alt: 'Perfume Pure XS da Paco Rabanne em fundo preto',
   },
   {
@@ -158,7 +158,7 @@ export const perfumes: Perfume[] = [
     name: 'Scuderia Ferrari Black',
     volume: '100ml',
     price: 'R$ 220,00',
-    image: '/perfumes/ferrari-black.png',
+    image: '/products/ferrari-black.png',
     alt: 'Perfume Scuderia Ferrari Black em fundo preto',
   },
 ]
@@ -170,7 +170,7 @@ export const perfumesFemininos: Perfume[] = [
     name: 'Lattafa Fakhar Rose',
     volume: '100ml',
     price: 'R$ 230,00',
-    image: '/perfumes/lattafa-fakhar.png',
+    image: '/products/lattafa-fakhar.png',
     alt: 'Perfume feminino Lattafa Fakhar Rose em fundo preto',
   },
   {
@@ -179,7 +179,7 @@ export const perfumesFemininos: Perfume[] = [
     name: 'Lattafa Atheeri',
     volume: '100ml',
     price: 'R$ 330,00',
-    image: '/perfumes/lattafa-atheeri.png',
+    image: '/products/lattafa-atheeri.png',
     alt: 'Perfume feminino Lattafa Atheeri em fundo preto',
   },
   {
@@ -188,7 +188,7 @@ export const perfumesFemininos: Perfume[] = [
     name: 'Al Wataniah Sabah',
     volume: '100ml',
     price: 'R$ 200,00',
-    image: '/perfumes/al-wataniah-sabah.png',
+    image: '/products/al-wataniah-sabah.png',
     alt: 'Perfume feminino Al Wataniah Sabah em fundo preto',
   },
   {
@@ -197,7 +197,7 @@ export const perfumesFemininos: Perfume[] = [
     name: 'Scandal',
     volume: '80ml',
     price: 'R$ 480,00',
-    image: '/perfumes/scandal-fem.png',
+    image: '/products/scandal-fem.png',
     alt: 'Perfume feminino Scandal da Jean Paul Gaultier em fundo preto',
   },
   {
@@ -206,7 +206,7 @@ export const perfumesFemininos: Perfume[] = [
     name: 'Olympéa',
     volume: '80ml',
     price: 'R$ 480,00',
-    image: '/perfumes/olympea.png',
+    image: '/products/olympea.png',
     alt: 'Perfume feminino Olympéa da Paco Rabanne em fundo preto',
   },
   {
@@ -215,7 +215,7 @@ export const perfumesFemininos: Perfume[] = [
     name: 'My Way',
     volume: '90ml',
     price: 'R$ 830,00',
-    image: '/perfumes/my-way.png',
+    image: '/products/my-way.png',
     alt: 'Perfume feminino My Way da Giorgio Armani em fundo preto',
   },
   {
@@ -224,7 +224,7 @@ export const perfumesFemininos: Perfume[] = [
     name: 'Classique',
     volume: '100ml',
     price: 'R$ 470,00',
-    image: '/perfumes/classique.png',
+    image: '/products/classique.png',
     alt: 'Perfume feminino Classique da Jean Paul Gaultier em fundo preto',
   },
   {
@@ -233,7 +233,7 @@ export const perfumesFemininos: Perfume[] = [
     name: 'Lady Million',
     volume: '80ml',
     price: 'R$ 490,00',
-    image: '/perfumes/lady-million.png',
+    image: '/products/lady-million.png',
     alt: 'Perfume feminino Lady Million da Paco Rabanne em fundo preto',
   },
   {
@@ -242,7 +242,7 @@ export const perfumesFemininos: Perfume[] = [
     name: 'Miss Dior',
     volume: '100ml',
     price: 'R$ 690,00',
-    image: '/perfumes/miss-dior.png',
+    image: '/products/miss-dior.png',
     alt: 'Perfume feminino Miss Dior da Dior em fundo preto',
   },
   {
@@ -251,7 +251,7 @@ export const perfumesFemininos: Perfume[] = [
     name: '212 VIP Rosé',
     volume: '80ml',
     price: 'R$ 480,00',
-    image: '/perfumes/212-vip-rose.png',
+    image: '/products/212-vip-rose.png',
     alt: 'Perfume feminino 212 VIP Rosé da Carolina Herrera em fundo preto',
   },
   {
@@ -260,7 +260,7 @@ export const perfumesFemininos: Perfume[] = [
     name: 'Black XS',
     volume: '80ml',
     price: 'R$ 480,00',
-    image: '/perfumes/black-xs-fem.png',
+    image: '/products/black-xs-fem.png',
     alt: 'Perfume feminino Black XS da Paco Rabanne em fundo preto',
   },
   {
@@ -269,7 +269,7 @@ export const perfumesFemininos: Perfume[] = [
     name: 'Light Blue',
     volume: '100ml',
     price: 'R$ 450,00',
-    image: '/perfumes/light-blue.png',
+    image: '/products/light-blue.png',
     alt: 'Perfume feminino Light Blue da Dolce & Gabbana em fundo preto',
   },
   {
@@ -278,7 +278,7 @@ export const perfumesFemininos: Perfume[] = [
     name: "L'Interdit",
     volume: '80ml',
     price: 'R$ 600,00',
-    image: '/perfumes/linterdit.png',
+    image: '/products/linterdit.png',
     alt: "Perfume feminino L'Interdit da Givenchy em fundo preto",
   },
   {
@@ -287,7 +287,7 @@ export const perfumesFemininos: Perfume[] = [
     name: 'La Vie Est Belle',
     volume: '100ml',
     price: 'R$ 490,00',
-    image: '/perfumes/la-vie-est-belle.png',
+    image: '/products/la-vie-est-belle.png',
     alt: 'Perfume feminino La Vie Est Belle da Lancôme em fundo preto',
   },
   {
@@ -296,7 +296,7 @@ export const perfumesFemininos: Perfume[] = [
     name: 'Libre',
     volume: '90ml',
     price: 'R$ 670,00',
-    image: '/perfumes/libre.png',
+    image: '/products/libre.png',
     alt: 'Perfume feminino Libre da Yves Saint Laurent em fundo preto',
   },
 ]

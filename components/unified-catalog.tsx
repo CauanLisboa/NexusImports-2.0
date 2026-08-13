@@ -163,29 +163,16 @@ export function UnifiedCatalog() {
 }
 
 function ProductCard({ item }: { item: (typeof products)[0] }) {
-  const [src, setSrc] = useState(item.image)
-
   return (
     <div className="premium-hover group flex flex-col justify-between overflow-hidden rounded-xl border border-outline-variant/30 bg-black p-5">
       <div>
-        <div className="relative mb-4 aspect-square w-full overflow-hidden rounded-lg bg-black flex items-center justify-center">
-          <img
-            src={src}
+        <div className="relative mb-4 aspect-square w-full overflow-hidden rounded-lg bg-black">
+          <Image
+            src={item.image}
             alt={item.alt}
-            className="h-full w-full object-contain p-2 transition-transform duration-500 group-hover:scale-105"
-            onError={() => {
-              if (item.slug === 'iphone-17-pro-max') {
-                setSrc('https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=600&q=80')
-              } else if (item.slug === 'redmi-watch-5-active') {
-                setSrc('https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80')
-              } else if (item.slug === 'razer-viper-v4-pro') {
-                setSrc('https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=600&q=80')
-              } else if (item.slug === 'razer-ornata-v3-tkl') {
-                setSrc('https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80')
-              } else {
-                setSrc('https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=600&q=80')
-              }
-            }}
+            fill
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+            className="object-contain p-2 transition-transform duration-500 group-hover:scale-105"
           />
         </div>
         <span className="font-mono text-[10px] uppercase tracking-widest text-outline">
@@ -214,8 +201,6 @@ function ProductCard({ item }: { item: (typeof products)[0] }) {
 }
 
 function PerfumeCard({ perfume }: { perfume: (typeof perfumes)[0] }) {
-  const [src, setSrc] = useState(perfume.image)
-
   return (
     <div className="premium-hover group flex flex-col overflow-hidden rounded-xl border border-outline-variant/30 bg-black">
       <div className="flex flex-1 items-stretch">
@@ -230,14 +215,13 @@ function PerfumeCard({ perfume }: { perfume: (typeof perfumes)[0] }) {
             {perfume.volume}
           </span>
         </div>
-        <div className="relative ml-auto h-40 w-1/2 flex-shrink-0 bg-black flex items-center justify-center p-2">
-          <img
-            src={src}
+        <div className="relative ml-auto h-40 w-1/2 flex-shrink-0 bg-black">
+          <Image
+            src={perfume.image}
             alt={perfume.alt}
-            className="h-full w-full object-contain p-2 transition-transform duration-500 group-hover:scale-110"
-            onError={() => {
-              setSrc('https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=600&q=80')
-            }}
+            fill
+            sizes="(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 16vw"
+            className="object-contain p-3 transition-transform duration-500 group-hover:scale-110"
           />
         </div>
       </div>
