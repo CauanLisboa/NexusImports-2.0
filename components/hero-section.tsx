@@ -32,7 +32,7 @@ export function HeroSection() {
         <div className="relative mt-12 h-[360px] w-full md:mt-0 md:h-[600px]">
           <div className="absolute inset-0 z-10 hidden bg-gradient-to-r from-background via-transparent to-transparent md:block" />
           <Image
-            src="/products/hero-phone.png"
+            src="imagens/hero-phone.png"
             alt="Smartphone premium em titânio em estúdio escuro"
             fill
             priority
