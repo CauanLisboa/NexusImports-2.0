@@ -1,9 +1,12 @@
-import Image from 'next/image'
+'use client'
+
+import { useState } from 'react'
 import { ShoppingCart, Info } from 'lucide-react'
 import { featuredProduct, whatsappLink } from '@/lib/site'
 
 export function FeaturedProduct() {
   const p = featuredProduct
+  const [src, setSrc] = useState(p.image)
 
   return (
     <section
@@ -21,13 +24,13 @@ export function FeaturedProduct() {
 
       <div className="metal-glow premium-hover group grid grid-cols-1 items-center gap-6 overflow-hidden rounded-xl bg-steel-gray lg:grid-cols-2">
         <div className="relative flex h-[360px] w-full items-center justify-center bg-surface-lowest p-8 md:h-[500px]">
-          <Image
-            src={p.image || '/placeholder.svg'}
+          <img
+            src={src}
             alt={p.alt}
-            fill
-            unoptimized
-            sizes="(max-width: 1024px) 100vw, 50vw"
-            className="object-contain p-8 drop-shadow-2xl transition-transform duration-700 group-hover:scale-105"
+            className="h-full w-full object-contain p-8 drop-shadow-2xl transition-transform duration-700 group-hover:scale-105"
+            onError={() => {
+              setSrc('https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=800&q=80')
+            }}
           />
           <div className="absolute top-6 left-6">
             <span className="rounded-sm bg-signal-red px-3 py-1 font-mono text-xs uppercase tracking-wider text-primary">

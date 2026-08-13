@@ -1,7 +1,11 @@
+'use client'
+
+import { useState } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 
 export function HeroSection() {
+  const [src, setSrc] = useState('/products/hero-phone.png')
+
   return (
     <section className="fade-in-up relative mx-auto flex min-h-[90vh] w-full max-w-[1280px] items-center px-4 md:px-16">
       <div className="z-10 grid w-full grid-cols-1 items-center gap-6 md:grid-cols-2">
@@ -29,16 +33,15 @@ export function HeroSection() {
           </div>
         </div>
 
-        <div className="relative mt-12 h-[360px] w-full md:mt-0 md:h-[600px]">
+        <div className="relative mt-12 h-[360px] w-full md:mt-0 md:h-[600px] flex items-center justify-center">
           <div className="absolute inset-0 z-10 hidden bg-gradient-to-r from-background via-transparent to-transparent md:block" />
-          <Image
-            src="/products/hero-phone.png"
+          <img
+            src={src}
             alt="Smartphone premium em titânio em estúdio escuro"
-            fill
-            priority
-            unoptimized
-            sizes="(max-width: 768px) 100vw, 50vw"
-            className="rounded-xl object-cover opacity-90 mix-blend-lighten"
+            className="h-full w-full rounded-xl object-contain opacity-90 mix-blend-lighten"
+            onError={() => {
+              setSrc('https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80')
+            }}
           />
         </div>
       </div>
