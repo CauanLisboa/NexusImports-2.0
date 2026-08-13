@@ -36,6 +36,7 @@ export function HeroSection() {
             alt="Smartphone premium em titânio em estúdio escuro"
             fill
             priority
+            unoptimized
             sizes="(max-width: 768px) 100vw, 50vw"
             className="rounded-xl object-cover opacity-90 mix-blend-lighten"
           />

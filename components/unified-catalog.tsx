@@ -166,11 +166,12 @@ function ProductCard({ item }: { item: (typeof products)[0] }) {
   return (
     <div className="premium-hover group flex flex-col justify-between overflow-hidden rounded-xl border border-outline-variant/30 bg-black p-5">
       <div>
-        <div className="relative mb-4 aspect-square w-full overflow-hidden rounded-lg bg-black">
+        <div className="relative mb-4 aspect-square w-full overflow-hidden rounded-lg bg-black flex items-center justify-center">
           <Image
-            src={item.image || '/placeholder.svg'}
+            src={item.image}
             alt={item.alt}
             fill
+            unoptimized
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
             className="object-contain p-2 transition-transform duration-500 group-hover:scale-105"
           />
@@ -215,11 +216,12 @@ function PerfumeCard({ perfume }: { perfume: (typeof perfumes)[0] }) {
             {perfume.volume}
           </span>
         </div>
-        <div className="relative ml-auto h-40 w-1/2 flex-shrink-0 bg-black">
+        <div className="relative ml-auto h-40 w-1/2 flex-shrink-0 bg-black flex items-center justify-center">
           <Image
-            src={perfume.image || '/placeholder.svg'}
+            src={perfume.image}
             alt={perfume.alt}
             fill
+            unoptimized
             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 16vw"
             className="object-contain p-3 transition-transform duration-500 group-hover:scale-110"
           />

@@ -25,6 +25,7 @@ export function FeaturedProduct() {
             src={p.image || '/placeholder.svg'}
             alt={p.alt}
             fill
+            unoptimized
             sizes="(max-width: 1024px) 100vw, 50vw"
             className="object-contain p-8 drop-shadow-2xl transition-transform duration-700 group-hover:scale-105"
           />
